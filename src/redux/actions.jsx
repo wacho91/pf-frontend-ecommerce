@@ -52,7 +52,7 @@ export const login = async (email, contraseña) => {
 };
   
 export const register = async (nombre, apellido, email, contraseña, celular, imagen) => {
-    const registrar = await axios.post(`${urlLocal}/users/register`, {
+    const registrar = await axios.post(`${urlDeploy}/users/register`, {
         nombre,
         apellido,
         email,
