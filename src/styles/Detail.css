@@ -1,0 +1,16 @@
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+.imagen {
+  height: 400px;
+  width: 350px;
+  margin-left: 7rem;
+  margin-top: 3rem;
+}
+
+.back {
+  font-size : 2rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,142 @@
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.divContenedorCard {
+    margin: 10px;
+    width: 250px; /* Ajusta el ancho de las tarjetas según tus necesidades */
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.divContenedorCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divBorrar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 8px;
+    
+}
+
+.divBorrar button {
+    border: none;
+    background-color: transparent;
+}
+
+.divBorrar button:hover {
+    cursor: pointer;
+    background-color: #666;
+}
+
+
+.svgTacho {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    fill: #666;
+    transition: fill 0.3s ease;
+    margin-top: -5px;
+}
+
+.svgTacho:hover {
+    fill: #333;
+}
+
+.linkUrl {
+    text-decoration: none;
+    color: inherit;
+} 
+
+.volver {
+margin-left: 20px;
+margin-top: 40px;
+font-weight: 700;
+color: rgb(75, 64, 64);
+display: inline-flex;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: -2.5rem;
+}
+
+.imagen {
+    width: 150px; /* Establece un ancho fijo */
+  height: 180px; /* Mantiene la relación de aspecto de la imagen */
+  margin-left: 15px;
+  margin-bottom: 16px;
+}
+
+.divPrecioYStock {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.precio {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.stock {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(75, 64, 64);
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+

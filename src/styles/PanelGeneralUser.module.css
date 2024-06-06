@@ -1,0 +1,216 @@
+.principal {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedorImagen {
+      margin-left: 35px;
+      border-radius: 9999px;
+      height: 270px;
+      width: 270px;
+  }
+  
+  .contenedorImagen img {
+      height: 270px;
+      width: 270px;
+      border-radius: 9999px;
+  }
+  
+  .contenedorDatos {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .contenedorDatos p {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+  }
+  
+  .contenedorDatos i {
+    margin-left: 10px;
+    font-size: 20px;
+  } 
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form input {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+  }
+  
+  .button {
+    margin-top: 10px;
+    width: 305px;
+    height: 35px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: .5rem;
+  }
+  
+  .linkUrl {
+    text-decoration: none;
+  }
+  
+  .volver {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: rgb(75, 64, 64);
+    display: inline-flex;
+  }
+  
+  .contenedorImagen2 {
+    margin-right: 20px;
+  }
+  
+  .contenedorImagen2 img {
+    height: 270px;
+    width: 270px;
+    border-radius: 9999px;
+  }
+  
+  .row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .margenForm {
+    margin-top: 5px;
+  }
+  
+  .contenedorHeight {
+    margin-top: 30px;
+  }
+  
+  .contenedorPadre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .divContenedorDatos {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    margin: 20px;
+  }
+  
+  .contenedorProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    background-color: rgba(128, 128, 128, 0.144);
+  }
+  
+  .divProductos {
+    display: inline-flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  .divProductos h4 {
+    color: black;
+  }
+  
+  .divProductos img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 15px;
+  }
+  
+  .divProductos p {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+  
+  .contenedorOrden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    background-color: rgba(128, 128, 128, 0.144);
+    border-right: 1px solid black;
+  }
+  
+  .contenedorOrden p {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .divProductosPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sinOrdenes {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sinOrdenes p {
+    font-size: 30px;
+    font-weight: 550;
+  }
+  
+  .divComentario {
+    display: flex;
+  }
+  
+  .textarea {
+    height: 50px;
+    width: 100vh;
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+  }
+  .contenedorComentarioPrincipal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenedorComentario {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contenedorComentario button {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }

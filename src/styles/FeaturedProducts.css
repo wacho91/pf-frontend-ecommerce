@@ -1,0 +1,66 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  /* Ajusta la altura según tus necesidades */
+  }
+  
+  .card-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .card-title {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  
+  .card-ventas {
+    text-align: center;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Nuevo CSS para ajustar el ancho de las tarjetas y el efecto hover */
+  .col-md-4, .col-sm-6, .col-lg-3 {
+    max-width: 250px;
+  }
+  
+  .card-hover {
+    transition: transform 0.2s;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+  }
+  
+  
+
+.svgIzq {
+    position: absolute;
+    left: 10%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.svgDer {
+    position: absolute;
+    right: 5%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+

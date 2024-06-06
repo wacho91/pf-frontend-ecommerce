@@ -1,0 +1,49 @@
+.buttons {
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px 1.5px;
+    border-radius: 3px;
+    border: 1px solid #EBFCF8;
+    color: #3F5C55;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+.container button:hover {
+    background-color:#EAFAF6;
+    cursor: pointer;
+}
+  
+.back {
+    width: 30px;
+    height: 30px;
+    margin: 0px 1.5px;
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+  
+.next {
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px 1.5px;
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

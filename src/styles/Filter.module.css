@@ -1,0 +1,56 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px; /* Ajustar según tus necesidades */
+  margin-bottom: 20px; /* Ajustar según tus necesidades */
+}
+
+.buttonTodos, .divBoton > button {
+  padding: 8px 16px; /* Reducido un poco para que no sean tan grandes */
+  margin-right: 10px;
+  border-radius: 8px; /* Bordes redondeados */
+  border: none; /* Opcional: para quitar el borde por defecto */
+  background-color: black; /* Color de fondo (puedes cambiarlo) */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.buttonTodos:hover {
+  background-color: #373b3e;
+}
+
+
+.divBoton > button:hover {
+  background-color: #373b3e;
+}
+
+select {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 8px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde para el select */
+}
+
+.divRangoPrecio {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.divRangoPrecio > p {
+  margin: 0;
+}
+
+input {
+  padding: 8px; /* Ajustado para que sea más cómodo */
+  width: 100px; /* Aumentado un poco para mejor usabilidad */
+  border-radius: 8px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde para el input */
+}
+
+.divBoton {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Añadido para dar espacio entre botones */
+}

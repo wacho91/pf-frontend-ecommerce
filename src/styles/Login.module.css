@@ -1,0 +1,106 @@
+.formChange {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    align-itmes: center;
+    width: 80%;
+}
+
+.titulo {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+    text-align: center;
+}
+
+.label0 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.label1{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.input0 {
+    width: 90%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+}
+
+.input1 {
+    width: 90%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+}
+  
+.loginBtn {
+    background-color: #4b5563;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border:none;
+    margin-left: 2rem;
+    width: 90%;
+}
+  
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #b83280;
+}
+
+.parrafo {
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.parrafo a {
+    text-decoration: none;
+}
+  
+.link {
+    color: #000;
+}
+
+.link:hover {
+    color: #b83280;
+    cursor:pointer;
+}
+
+.back {
+    color: #000;
+    font-size: 2rem;
+}
+
+.back2 {
+    margin-top: 1rem;
+    margin-bottom: -1.3rem;
+    margin-left: 1rem;
+}
+  
+.image{
+    height: 28rem;
+    weight: 28rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    opacity: 0.3;
+}
+ 
