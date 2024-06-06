@@ -12,6 +12,7 @@ import { login } from '../redux/actions';
 import { useState } from 'react';
 
 import style from '../styles/Login.module.css';
+import loginImage from '../../public/logo1.png';
 
 const Login = () => {
 
@@ -62,7 +63,7 @@ const Login = () => {
           <p className={style.parrafo}>¿No tienes cuneta? Registrate ingresando aqui <Link to='/register' className={style.link}> Aquí</Link></p>
         </Col>
         <Col xs={6} className='mt-5'>
-          <img src="../../../public/logo1.png" alt="login"  className={style.image}/>
+          <img src={loginImage} alt="login"  className={style.image}/>
         </Col>
       </Row>
       </Container>

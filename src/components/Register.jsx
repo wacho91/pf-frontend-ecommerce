@@ -9,6 +9,7 @@ import { register } from '../redux/actions';
 import { Link, useNavigate } from 'react-router-dom';
 
 import style from '../styles/Register.module.css';
+import registerImage from '../../public/register.png'; // Importa la imagen
 
 const Register = () => {
 
@@ -106,7 +107,7 @@ const Register = () => {
                         <p className={style.parrafo}>¿Ya tienes una cuenta? <Link to='/login' className={style.link}>Ingresa aquí</Link></p>
                     </Col>
                     <Col xs={6} className='mt-5'>
-                        <img src="../../../public/register.png" alt="register" className={style.image} />
+                        <img src={registerImage} alt="register" className={style.image} /> {/* Usa la imagen importada */}
                     </Col>
                 </Row>
             </Container>
